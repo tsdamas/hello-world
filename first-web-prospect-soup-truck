@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
+        img {
+            max-width: 400px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        body {
+            background: radial-gradient(343px at 46.3% 47.5%, rgb(242, 242, 242) 0%, rgb(241, 241, 241) 72.9%);
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: left;
+            font-family: 'Fjalla One', sans-serif;
+            letter-spacing: 20px;
+            color: #305235;
+            font-size: 100px;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            padding-top: 0px;
+            padding-left: 10px;
+        }
+
+        hr{
+             width: 65%;
+             height: 100%;
+             display: inline-block;
+             transform:rotate(-40deg);
+             -moz-transform: rotate(-40deg);
+             -o-transform: rotate(-45deg);
+             -ms-transform: rotate(-45deg);
+             -webkit-transform: rotate(-45deg);
+             margin-bottom: 100px;
+             margin-top: 0px;
+             padding: 0px;
+             color: #305235;
+             size: 20px;
+             overflow: visible;
+             text-align: right;
+             border: 1px solid #305235;
+        }
+
+        h2 {
+            text-align: left;
+            font-family: 'Noto Sans JP', sans-serif;
+            text-transform: capitalize;
+            color: #305235;
+        }
+
+        h3 {
+            text-align: center;
+            font-family: 'Noto Sans JP', sans-serif;
+            color: #305235;
+            font-size: 30px;
+            text-transform: capitalize;
+             margin: 0px;
+             font-weight: normal;
+        }
+        ol{
+            padding: 0px;
+            margin: 0px;
+        }
+
+        p {
+            text-align: center;
+            color: #305235;
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+
+        button {
+            display: block;
+            margin: 25px auto;
+            border: 1px solid #305235;
+            background: #305235;
+            color: #fff;
+            font-family: 'Noto Sans JP', sans-serif;
+            font-size: 16px;
+            line-height: 22px;
+            padding: 16px 24px;
+            border-radius: 30px;
+            transition: all 200ms ease;
+            box-shadow: 5px 8px 5px rgba(37, 39, 89, 0.08) ;
+        }
+
+
+        li {
+            list-style: none;
+            padding: 10px 15px;
+            border-radius: 10px;
+            transition: all 200ms ease-in-out;
+            max-width: 300px;
+            margin: 0 auto;
+            font-family: 'Noto Sans JP', sans-serif;
+
+        }
+
+        li:hover {
+            background-color: rgba(37, 128, 67, 0.3);
+            cursor: pointer;
+        }
+
+        button:hover {
+            cursor: pointer;
+            background-color: #fff;
+            border-color: #305235; 
+            color: #305235;
+            cursor: pointer;
+        }
+
+        .wrap {
+            display: block;
+            margin: 80px auto;
+            max-width: 600px;
+            padding: 20px;
+            box-shadow: 8px 8px 8px 0px rgba(37, 39, 89, 0.08);
+            border-radius: 20px;
+            background-color: #fff;
+        }
+
+        .instruction {
+            font-size: 20px;
+        }
+
+        .truck {
+            margin: 0px;
+            padding: 0px;
+            letter-spacing: 7.5px;
+            font-weight: bolder;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <h1>
+            SO 
+            <br />
+            UP
+        </h1>
+        <h2 class="truck">
+            <em>
+                TRUCK 
+            </em>
+        </h2>
+    <hr />
+    <br />
+        <h3>
+            LUNCH MENU
+        </h3>
+        <h3 class="instruction">
+            Select the options from the menu below:
+        </h3>
+        <ol>
+            <li>
+                <h3>
+                    1
+                </h3>
+                <p>
+                    <strong>
+                        Roasted Butternut Squash Soup
+                    </strong>
+                    <br />
+                    Delicious, creamy butternut squash soup made with mix of spices and special touch of the Chefe.
+                </p>
+            </li>
+            <li>
+                <h3>
+                    2
+                </h3>
+                <p>
+                    <strong>
+                        Caldo Verde
+                    </strong>
+                    <br />
+                    This is a traditional portuguese kale soup. Deliciously cooked with smoked Portuguese sausage.
+                </p>
+            </li>
+            <li>
+                <h3>
+                    3
+                </h3>
+                <p>
+                    <strong>
+                        Hungarian Mushroom Soup
+                    </strong>
+                    <br />
+                    This is a ultracreamy, pungent, delicious mushroom soup.
+                </p>
+            </li>
+            </ol>
+            <button>
+                <strong>
+                    Order here
+                </strong>
+            </button>
+        </div>
+        <p>
+            Coded by Thais Santos Damasceno
+        </p>
+    
+        <script>
+             
+            var img = document.createElement("img")
+            function makeOrder() {
+                let name = prompt("What is your name?");
+                let order = prompt("What option do you want? (Answer 1, 2 or 3)");
+                
+                if (order === "1" || order === "2" || order === "3") {
+                    let substitute = document.querySelector("div");
+                     img = '<img src ="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/015/441/original/ICO_S03-WB_F_D3-11.jpg?1629259054">';
+                    substitute.innerHTML = img + "Hi, " + name + ", " + "thank you for chosing us. "+ "You have chosen option " + order + ". " + "Your order will be ready soon. Enjoy while hot!";
+                    substitute.style.fontSize = '40px'
+                    substitute.style.fontFamily = 'Noto Sans JP'
+                    substitute.style.textAlign = 'center'
+                    substitute.style.margin = '0px auto'
+                    substitute.style.maxHeight = '700px'
+                    substitute.style.maxWidth = '600px'
+                    substitute.style.color = '#305235'
+                } else {
+                    let substitute = document.querySelector("div");
+                    substitute.innerHTML = "Sorry, " + name +". We do not get your order. Please, refresh the page and answer 1, 2 or 3 on the second question. See you soon!"
+                    substitute.style.fontSize = '40px'
+                    substitute.style.fontFamily = 'Noto Sans JP'
+                    substitute.style.textAlign = 'center'
+                    substitute.style.margin = '0px auto'
+                    substitute.style.maxHeight = '700px'
+                    substitute.style.maxWidth = '600px'
+                    substitute.style.color = '#305235'
+                }
+            }
+
+            let button = document.querySelector("button");
+            button.addEventListener("click", makeOrder);
+            
+
+        </script>
+</body>
+</html>
